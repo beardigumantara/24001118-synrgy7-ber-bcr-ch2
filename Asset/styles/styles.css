@@ -489,6 +489,18 @@ span {
   .accordion {
     width: auto;
   }
+
+  /* footer */
+  footer {
+    margin-top: 60px;
+  }
+  .footer-container {
+    display: flex;
+    flex-direction: column;
+  }
+  .copyright {
+    margin-top: 16px;
+  }
 }
 
 @media only screen and (max-width: 992px) {
@@ -521,5 +533,12 @@ span {
   /* faq */
   .faq-section {
     flex-direction: column;
+  }
+  /* footer */
+  footer{
+    margin-top: 80px;
+  }
+  .footer-container {
+    flex-wrap: wrap;
   }
 }
