@@ -432,6 +432,36 @@ span {
   .card, .card-body {
     width: auto;
   }
+  /* testimonial */
+  #img-responsive {
+    display: flex;
+    flex-direction: column;
+  }
+  .testimonial-section {
+    height: auto;
+  }
+  .card {
+    height: auto;
+  }
+  .image-testimonial {
+    margin: 40px auto 24px;
+  }
+  .desc-testimonial {
+    margin: 0 auto;
+  }
+  .desc-testimonial {
+    margin: 0 auto;
+    text-align: center;
+  }
+  .statement-testimonial {
+    width: auto;
+    margin: 8px 32px 8px;
+    text-align: left;
+  }
+  .name {
+    text-align: left;
+    margin: 0 32px 16px;
+  }
 }
 
 @media only screen and (max-width: 992px) {
