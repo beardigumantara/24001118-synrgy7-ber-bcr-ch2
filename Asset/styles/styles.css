@@ -100,7 +100,6 @@ ul li{
 /* our section */
 
 .our-section {
-  height: 100%;
   margin-top: 100px;
 }
 .right-img {
@@ -115,7 +114,6 @@ ul li{
 }
 
 .desc h1 {
-  width: 468px;
   margin-left: 39px;
   font-style: bold;
   font-weight: 700;
@@ -124,7 +122,6 @@ ul li{
 }
 
 .desc p {
-  width: 468px;
   margin-top: 24px;
   margin-left: 39px;
   font-weight: 300;
@@ -167,13 +164,17 @@ ul li{
   line-height: 24px;
 }
 
+.card, .card-body {
+  width: 268px;
+}
+
 .card-body h5,
 .card-body img {
   margin-bottom: 16px;
 }
-.card-text {
+/* .card-text {
   width: 220px;
-}
+} */
 
 /* testimonial carousel */
 .testimonial-header h1,
@@ -356,7 +357,7 @@ span {
 
 .offset::before {
   display: block;
-  content: "";
+  content: " ";
   height: 10px;
   margin-top: -10px;
   visibility: hidden;
@@ -398,14 +399,45 @@ span {
   .offcanvas {
     --bs-offcanvas-width: 50% !important;
   }
+
+  /* our services */
+  .our-section {
+    margin-top: 104px;
+  }
+
+  .right-img img {
+    width: 70%;
+  }
+
+  .desc h1, .desc p, .desc ul {
+    margin-left: 0;
+  }
+
+  .desc p br {
+    display: none;
+  }
 }
 
-@media only screen and (max-width: 992px){
+@media only screen and (max-width: 992px) {
   header {
     height: 920px;
   }
-  
+
   .offcanvas {
-    --bs-offcanvas-width: 25% !important;
+    --bs-offcanvas-width: 25%;
+  }
+
+  /* our service */
+
+  .desc h1, .desc p, .desc ul {
+    margin-left: 0;
+  }
+
+  .right-img {
+    text-align: center;
+  }
+
+  .right-img img {
+    margin: 0;
   }
 }
