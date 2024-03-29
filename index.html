@@ -20,15 +20,28 @@
   <body>
     <header>
       <div class="navbar-container fixed-top">
-        <nav class="container d-flex flex-row justify-content-between">
-          <a href="" class="logo"></a>
-          <ul class="list-unstyled d-flex">
-            <li><a href="#our-services" class="text-decoration-none text-reset">Our Services</a></li>
-            <li><a href="#why-us" class="text-decoration-none text-reset">Why Us</a></li>
-            <li><a href="#testimonial" class="text-decoration-none text-reset">Testimonial</a></li>
-            <li><a href="#faq" class="text-decoration-none text-reset">FAQ</a></li>
-            <button type="button" class="btn">Register</button>
-          </ul>
+        <nav class="navbar navbar-expand-lg navbar-light">
+          <div class="container-md">
+            <a href="" class="logo"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="navbarText" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+              <div class="offcanvas-header">
+                <h5 class="offcanvas-title">BCR</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+              </div>
+              <div class="offcanvas-body">
+                <ul class="list-unstyled navbar-nav ms-auto">
+                  <li class="nav-item"><a href="#our-services" class="nav-link active text-decoration-none text-reset">Our Services</a></li>
+                  <li class="nav-item"><a href="#why-us" class="nav-link active text-decoration-none text-reset">Why Us</a></li>
+                  <li class="nav-item"><a href="#testimonial" class="nav-link active text-decoration-none text-reset">Testimonial</a></li>
+                  <li class="nav-item"><a href="#faq" class="nav-link active text-decoration-none text-reset">FAQ</a></li>
+                  <li class="nav-item"><button type="button" class="btn nav-link active" id="btn-green">Register</button></li>
+                </ul>
+              </div>
+            </div>
+          </div>
         </nav>
       </div>
       <div class="hero-container container">
