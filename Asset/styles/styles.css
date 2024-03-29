@@ -1,5 +1,5 @@
 body {
-  font-family: Helvetica, sans-serif, Arial,;
+  font-family: Helvetica, sans-serif, Arial;
   overflow-x: hidden;
 }
 
@@ -23,10 +23,6 @@ nav {
   background: #0d28a6;
   width: 100px;
   height: 34px;
-}
-ul {
-  align-items: center;
-  margin-bottom: 0;
 }
 
 ul li{
@@ -90,11 +86,11 @@ ul li{
 }
 
 #shape {
-  margin-top: 197px;
   width: 704px;
   height: 243px;
-  background: #0d28a6;
+  background: #0D28A6;
   border-radius: 60px 0px 0px 0px;
+  margin-top: 197px;
 }
 
 .navbar-toggler-icon {
