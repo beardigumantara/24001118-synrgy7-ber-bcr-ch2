@@ -25,24 +25,22 @@ nav {
   height: 34px;
 }
 
-ul li{
+ul li {
   margin-right: 32px;
   font-size: 14px;
   font-weight: 400;
 }
 
 #btn-green {
-  background-color: #5CB85F;
-  color: #FFFFFF;
+  background-color: #5cb85f;
+  color: #ffffff;
   font-size: 14px;
   font-weight: 700;
   padding: 8px 12px;
 }
 
 .navbar-toggler-icon {
-  --bs-navbar-toggler-icon-bg: url(
-    "data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%2834, 34, 34, 1%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e"
-    )
+  --bs-navbar-toggler-icon-bg: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%2834, 34, 34, 1%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
 }
 
 .navbar-toggler {
@@ -88,7 +86,7 @@ ul li{
 #shape {
   width: 704px;
   height: 243px;
-  background: #0D28A6;
+  background: #0d28a6;
   border-radius: 60px 0px 0px 0px;
   margin-top: 197px;
 }
@@ -164,7 +162,8 @@ ul li{
   line-height: 24px;
 }
 
-.card, .card-body {
+.card,
+.card-body {
   width: 268px;
 }
 
@@ -366,7 +365,7 @@ span {
 /* Media Queries */
 @media only screen and (max-width: 767px) {
   header {
-    background: #F1F3FF;
+    background: #f1f3ff;
     height: 630px !important;
     width: 100%;
   }
@@ -384,7 +383,7 @@ span {
   }
 
   .hero-container {
-    background: #F1F3FF;
+    background: #f1f3ff;
     width: 100%;
   }
 
@@ -409,7 +408,9 @@ span {
     width: 70%;
   }
 
-  .desc h1, .desc p, .desc ul {
+  .desc h1,
+  .desc p,
+  .desc ul {
     margin-left: 0;
   }
 
@@ -429,7 +430,8 @@ span {
   .card-body br {
     display: none;
   }
-  .card, .card-body {
+  .card,
+  .card-body {
     width: auto;
   }
   /* testimonial */
@@ -514,7 +516,9 @@ span {
 
   /* our service */
 
-  .desc h1, .desc p, .desc ul {
+  .desc h1,
+  .desc p,
+  .desc ul {
     margin-left: 0;
   }
 
@@ -535,7 +539,7 @@ span {
     flex-direction: column;
   }
   /* footer */
-  footer{
+  footer {
     margin-top: 80px;
   }
   .footer-container {
