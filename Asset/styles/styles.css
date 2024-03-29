@@ -477,6 +477,18 @@ span {
   .cta-banner button {
     margin-bottom: 64px;
   }
+
+  /* faq */
+  .faq-section {
+    display: flex;
+    flex-direction: column;
+  }
+  .faq-desc {
+    text-align: center;
+  }
+  .accordion {
+    width: auto;
+  }
 }
 
 @media only screen and (max-width: 992px) {
@@ -505,5 +517,9 @@ span {
   /* why us */
   .card {
     margin-bottom: 24px;
+  }
+  /* faq */
+  .faq-section {
+    flex-direction: column;
   }
 }
